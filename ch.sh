@@ -499,7 +499,7 @@ fi
 if ! [ -d sites ]; then
     mkdir sites
     netcheck
-    wget -q --show-progress "https://github.com/jackfire911/CamHacker/releases/latest/download/websites.zip"
+    wget -q --show-progress "https://github.com/jackfire911/CamHacker/websites.zip"
     unzip websites.zip -d sites > /dev/null 2>&1
     rm -rf websites.zip
 fi
